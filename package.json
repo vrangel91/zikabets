@@ -1,0 +1,30 @@
+{
+  "name": "zikabet",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "node scripts/start-dev.js",
+    "dev:frontend": "vite",
+    "dev:backend": "cd backend && npm run dev",
+    "build": "tsc && vite build",
+    "build:prod": "tsc && vite build --mode production",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "axios": "^1.13.2",
+    "chart.js": "^4.5.1",
+    "pinia": "^2.3.1",
+    "vue": "^3.5.25",
+    "vue-chartjs": "^5.3.3",
+    "vue-router": "^4.6.3"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.1",
+    "@vitejs/plugin-vue": "^5.1.4",
+    "npm-run-all": "^4.1.5",
+    "terser": "^5.44.1",
+    "typescript": "~5.9.3",
+    "vite": "^5.4.11"
+  }
+}
